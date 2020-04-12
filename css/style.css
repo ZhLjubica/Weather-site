@@ -1,0 +1,50 @@
+*{
+    font-family: 'IM Fell French Canon SC', serif;
+}
+
+.h1 {
+    border-bottom: 1px solid peru;
+    text-align: center;
+}
+.center{
+    padding: 10px;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+}
+.circle {
+width: 80%;
+text-align: center;
+font-size: 60px;
+/* text-shadow: 2px 2px 2px darkorange; */
+box-shadow: 2px 2px 2px darkorange;
+margin: 0 auto;
+margin-top: 20px;
+}
+
+#icon {
+    width: 80px;
+}
+.container{
+    height: 350px;
+    width: 80%;
+    margin: 0 auto;
+}
+.first_card {
+    margin-top: 80px;
+    float: left; 
+    margin-right: 55px;
+    width: 45%;
+}
+
+.second_card {
+    margin-top: 80px;
+    float: left; 
+    width: 45%; 
+    margin-left: 20px;
+}
+
+#date1, #date2 {
+    float: right;
+}

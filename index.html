@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&display=swap" rel="stylesheet">
+    <!--bootstrap  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 class="h1 display-3">Weather forecast</h1>
+    <div class="center">
+        <h1 id="location"></h1>
+        <img id="icon" src="" alt="Icon">  
+        <p id="description"></p>    
+        <div class="circle border border-warning rounded-pill">
+            <div id="temp"></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card mb-3 first_card" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="..." class="card-img" id="icon1" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                    <h2>Tomorrow</h2>
+                    <h5 class="card-title" id="temp1">Card title</h5>
+                  
+                  <p class="card-text"><small class="text-muted" id="feelsLike1">Last updated 3 mins ago</small></p>
+                  <p id="date1">Datum</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 second_card" style="max-width: 540px;">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img src="..." class="card-img" id="icon2" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                    <h2>Two days after</h2>
+                    <h5 class="card-title" id="temp2">Card title</h5>
+                  
+                  <p class="card-text"><small class="text-muted" id="feelsLike2">Last updated 3 mins ago</small></p>
+                  <p id="date2">Datum</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+    </div>
+    
+</body>
+<script src="js/main.js"></script>
+</html>
